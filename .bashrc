@@ -1,7 +1,7 @@
 #
 # ~/.bashrc
 #
-#
+#https://www.atlassian.com/git/tutorials/dotfiles
 [[ $- != *i* ]] && return
 
 colors() {
