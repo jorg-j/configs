@@ -140,3 +140,5 @@ ex ()
 alias config='/usr/bin/git --git-dir=/home/jackj/.cfg/ --work-tree=/home/jackj'
 alias rename_lower="for i in $( ls | grep [A-Z] ); do mv -i $i `echo $i | tr 'A-Z' 'a-z'`; done"
 alias pacinstall="sudo pacman -Syu $1"
+alias gitsync="cd /home/jackj/Code && git add . && git add -u && git commit -m sync && git push"
+alias gitsyncpull="cd /home/jackj/Code && git pull"
