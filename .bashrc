@@ -142,3 +142,4 @@ alias rename_lower="for i in $( ls | grep [A-Z] ); do mv -i $i `echo $i | tr 'A-
 alias pacinstall="sudo pacman -Syu $1"
 alias gitsync="cd /home/jackj/Code && git add . && git add -u && git commit -m sync && git push"
 alias gitsyncpull="cd /home/jackj/Code && git pull"
+alias note="cat>>$notes"
