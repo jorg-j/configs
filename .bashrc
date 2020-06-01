@@ -157,4 +157,6 @@ alias mkdir='mkdir -pv'
 alias h='history'
 alias c='clear'
 alias wget='wget -c'
-
+alias search='sh /home/jackj/Code/Linux_Tips/db.sh'
+source /usr/share/nvm/init-nvm.sh
+export PATH=$PATH:~/.yarn/bin
