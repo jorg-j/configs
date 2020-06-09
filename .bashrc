@@ -160,3 +160,5 @@ alias wget='wget -c'
 alias search='sh /home/jackj/Code/Linux_Tips/db.sh'
 source /usr/share/nvm/init-nvm.sh
 export PATH=$PATH:~/.yarn/bin
+alias plasmafix="kstart5 plasmashell > /dev/null 2>&1 & "
+alias ssh-reset='sudo systemctl restart sshd'
